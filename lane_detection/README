@@ -1,0 +1,23 @@
+lane_detection
+
+Description:
+	This directory contains a set of 
+	important functions, that will allowed 
+	the Intelligent Ground Vehicle do 
+	detect lanes, and most of its content
+	is inherate from kemfic's computer
+	vision article "Curved Lane Detection"
+	in hackster.io (https://www.hackster.io
+	.../kemfic/curved-lane-detection-34f771
+
+	The lane detection algorithm will follo
+	w the following logic:
+		distortion_Correction()
+		perspective_Wrap()
+		sobel_filter()
+		histogramPeak_Detection()
+		slidingWindow_Search()
+		curve_fitting()
+		detectedLane_Overlay()
+		
+
